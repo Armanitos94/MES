@@ -721,6 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #18d26e;
 }
 
 #services .title a {
@@ -1454,4 +1455,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.section-header  {
+  padding-bottom: 30px;
 }
