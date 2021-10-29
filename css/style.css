@@ -1459,3 +1459,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header  {
   padding-bottom: 30px;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #18d26e;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #18d26e;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.nav-link.active {
+  color: #fff !important;
+}
+
+.list-unstyled {
+    padding-left: 25px;
+}
