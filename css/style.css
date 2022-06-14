@@ -157,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 
+
 #intro .carousel-container {
   display: flex;
   justify-content: center;
@@ -1455,7 +1456,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+.linkstypegray{
+  color: gray;
+}
+#numbers{
+  display: block;
+  position: absolute;
+  padding-left: 1%;
+}
+#divnumbers{
 
+  max-width: 75%;
+}
+.textpadding{
+  padding-left: 7%;
+}
+.listStyleTypeNone{
+  list-style-type: none;
+  list-style-image: url("img/checkMark.png");
+}
+.listStyleTypeNone span{
+  padding-left: 2%;
+}
+.listStyleTypeNone img{
+  display: block;
+  position: absolute;
+  margin-left: -8%;
+}
 .section-header  {
   padding-bottom: 30px;
 }
@@ -1481,3 +1508,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 .list-unstyled {
     padding-left: 25px;
 }
+
