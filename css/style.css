@@ -1456,17 +1456,114 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+/*  amount  */
+#amount {
+  background-color: #efefef;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#amount::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#amount .container {
+  position: relative;
+  z-index: 10;
+}
+
+#amount .amount-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#amount .amount-col .img {
+  position: relative;
+}
+
+#amount .amount-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#amount .amount-col .icon {
+  width: 64px;
+  height: 64px;
+  padding-top: 8px;
+  text-align: center;
+  position: absolute;
+  background-color: #18d26e;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #fff;
+  left: calc( 50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#amount .amount-col i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#amount .amount-col:hover .icon {
+  background-color: #fff;
+}
+
+#amount .amount-col:hover i {
+  color: #18d26e;
+}
+
+#amount .amount-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#amount .amount-col h2 a {
+  color: #000;
+}
+
+#amount .amount-col h2 a:hover {
+  color: #18d26e;
+}
+
+#amount .amount-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
 .linkstypegray{
   color: gray;
 }
 #numbers{
   display: block;
   position: absolute;
-  padding-left: 1%;
+  padding-left: 0.5%;
+  color: #18d26e;
 }
 #divnumbers{
 
   max-width: 75%;
+}
+.backcolor{
+  background-color: #efefef;
 }
 .textpadding{
   padding-left: 7%;
@@ -1476,12 +1573,51 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style-image: url("img/checkMark.png");
 }
 .listStyleTypeNone span{
-  padding-left: 2%;
+  padding-left: 0;
+}
+.textcolor{
+  color: #18d26e;
 }
 .listStyleTypeNone img{
   display: block;
   position: absolute;
-  margin-left: -8%;
+  margin-left: -6%;
+}
+/*
+
+           benefits                                 */
+#benefits {
+  background-color: #efefef;                                           
+  padding: 60px 0;
+}
+
+#benefits img {
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#benefits img:hover {
+  opacity: 1;
+}
+
+#benefits .owl-nav, #benefits .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#benefits .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#benefits .owl-dot.active {
+  background-color: #18d26e;
 }
 .section-header  {
   padding-bottom: 30px;
