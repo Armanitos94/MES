@@ -1654,3 +1654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 25px;
 }
 
+.img-portfolio {
+  min-height: 289px;
+}
+
