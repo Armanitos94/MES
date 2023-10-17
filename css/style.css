@@ -1657,4 +1657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .img-portfolio img {
   min-height: 289px;
 }
-
+.carousel-item h4 {
+  color: #fff;
+  font-weight: 700;
+}
